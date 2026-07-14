@@ -1,8 +1,8 @@
 class EngineeringHarness < Formula
   desc "Standalone engineering workflow harness CLI"
   homepage "https://github.com/jwoo0122/engineering-harness-skills"
-  url "https://registry.npmjs.org/@jwoo0122/harness/-/harness-2.2.1.tgz"
-  sha256 "1d780a72863e984a955b1aeba1c27ba9a1d0c500dceb10f093edae07e6cc24b7"
+  url "https://registry.npmjs.org/@jwoo0122/harness/-/harness-2.2.2.tgz"
+  sha256 "a08223762063f1867eaf4d5f55e21871123bdcf272de6ba0fa8872681fd4309f"
   license "MIT"
 
   depends_on "node"
