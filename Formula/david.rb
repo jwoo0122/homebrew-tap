@@ -1,20 +1,20 @@
 class David < Formula
   desc "Manage Git worktrees and attachable agent sessions"
   homepage "https://github.com/jwoo0122/david"
-  version "1.0.1"
+  version "1.1.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/jwoo0122/david/releases/download/v1.0.1/david-aarch64-apple-darwin.tar.xz"
-      sha256 "98f44b3a51e93ee2adc53d6b05e1a4c73995f33abd6f9d225629986feac6cfe8"
+      url "https://github.com/jwoo0122/david/releases/download/v1.1.0/david-aarch64-apple-darwin.tar.xz"
+      sha256 "d905699c7606ffd7125275444f6c8885adc2af3bb5817e5138e692bb418e54f3"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/jwoo0122/david/releases/download/v1.0.1/david-x86_64-apple-darwin.tar.xz"
-      sha256 "3aeff44420d833dd95cc491fa2626a2c3d78fffa229814502743466b3bc7c97a"
+      url "https://github.com/jwoo0122/david/releases/download/v1.1.0/david-x86_64-apple-darwin.tar.xz"
+      sha256 "0d0e92fdc98edd48b8b36bb1479910bbfcfa9f66bd12626ba4b93bbf72980bda"
     end
   end
   if OS.linux? && Hardware::CPU.intel?
-    url "https://github.com/jwoo0122/david/releases/download/v1.0.1/david-x86_64-unknown-linux-gnu.tar.xz"
-    sha256 "a61cda006f2ae10e3d26f504585a91741ff5c11fc88d65629ce08650b8d20506"
+    url "https://github.com/jwoo0122/david/releases/download/v1.1.0/david-x86_64-unknown-linux-gnu.tar.xz"
+    sha256 "cad320fb62524d95a115e6127aaa1d037c47fddb68f71d2c483f3018a0c415d6"
   end
   license "MIT"
 
