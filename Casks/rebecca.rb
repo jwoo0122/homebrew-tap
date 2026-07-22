@@ -2,7 +2,7 @@ cask "rebecca" do
   version "0.1.0"
   sha256 "d0bd76dd0133b04b144df8ae31044f6ae740dad5edc689d1db1fe574e80d1190"
 
-  url "https://github.com/jwoo0122/rebecca/releases/download/v#{version}/Rebecca-#{version}.zip"
+  url "https://github.com/jwoo0122/rebecca/releases/download/v#{version}/Rebecca-v#{version}.zip"
   name "Rebecca"
   desc "macOS GUI automation tool for AI agents"
   homepage "https://github.com/jwoo0122/rebecca"
