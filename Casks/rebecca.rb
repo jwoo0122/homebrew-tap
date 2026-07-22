@@ -1,6 +1,6 @@
 cask "rebecca" do
-  version "0.2.0"
-  sha256 "37d7f17f22d6846cbee92ede8e6f521aacb561c754d5bf29e9eaa22979782ef1"
+  version "0.3.0"
+  sha256 "c3fea1d51587dadf9486aad9853da81a8024320d2230916f3ccd9418ebabbb8c"
 
   url "https://github.com/jwoo0122/rebecca/releases/download/v#{version}/Rebecca-v#{version}.zip"
   name "Rebecca"
