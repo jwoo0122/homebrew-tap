@@ -1,20 +1,20 @@
 class Lucy < Formula
   desc "A small local JSONL agent harness"
   homepage "https://github.com/jwoo0122/lucy"
-  version "1.15.3"
+  version "1.16.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/jwoo0122/lucy/releases/download/v1.15.3/lucy-cli-aarch64-apple-darwin.tar.xz"
-      sha256 "c811c86b666d91ba87420e51273335caba8493da877ad3fc877e2a3903269ac8"
+      url "https://github.com/jwoo0122/lucy/releases/download/v1.16.0/lucy-cli-aarch64-apple-darwin.tar.xz"
+      sha256 "51bf32330560ae9f52023ddbdf57e1d110d96a4858a897cabb60466188312702"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/jwoo0122/lucy/releases/download/v1.15.3/lucy-cli-x86_64-apple-darwin.tar.xz"
-      sha256 "3ae350611187d078fc56aca061b2adc79a068c868f26dba9833c8778a720b9d6"
+      url "https://github.com/jwoo0122/lucy/releases/download/v1.16.0/lucy-cli-x86_64-apple-darwin.tar.xz"
+      sha256 "f3b73e54af38386a537288e1cd8171e841dc9081499ee8fea11c58fae89cddf2"
     end
   end
   if OS.linux? && Hardware::CPU.intel?
-    url "https://github.com/jwoo0122/lucy/releases/download/v1.15.3/lucy-cli-x86_64-unknown-linux-gnu.tar.xz"
-    sha256 "f855e065432a71f842a9b9479f6e87f4bc950fcf9b42576dec50849dbb48f93e"
+    url "https://github.com/jwoo0122/lucy/releases/download/v1.16.0/lucy-cli-x86_64-unknown-linux-gnu.tar.xz"
+    sha256 "ba581cdeaeb2e64f08d097a94a50739d4f0e1c255fde309462280d0cc491ee86"
   end
   license "MIT"
 
